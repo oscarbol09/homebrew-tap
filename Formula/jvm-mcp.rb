@@ -13,22 +13,22 @@ class JvmMcp < Formula
   on_macos do
     on_arm do
       url "https://github.com/oscarbol09/jvm-mcp/releases/download/v#{version}/jvm-mcp-macos-aarch64.tar.gz"
-      sha256 "8efe96061b0702a42e7a1bba31600e45d273b2fd9d1bccd15e1cd352f4da38cc"
+      sha256 "87a983b8bc87a529652248f840c32a23fc5b7c2fe81da7808cb2efb3b7aa12a1"
     end
     on_intel do
       url "https://github.com/oscarbol09/jvm-mcp/releases/download/v#{version}/jvm-mcp-macos-amd64.tar.gz"
-      sha256 "b7ce80e54b7d2d927a63a2f7b161a8e6db3bf548e7db19c9192f2198f35e2414"
+      sha256 "938a0e7e01553ae921a3171c6f68b3293ab9b839e203a272d47b320a92faaab6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/oscarbol09/jvm-mcp/releases/download/v#{version}/jvm-mcp-linux-amd64.tar.gz"
-      sha256 "3ce9a3e88f263711e50371454e939c06126acf8d3195534df9368440640057ac"
+      sha256 "41c5e9963c7847c9e90f8a96cb79547fdf4b6f8340f4edf3a6c80f4ba0b67311"
     end
     on_arm do
       url "https://github.com/oscarbol09/jvm-mcp/releases/download/v#{version}/jvm-mcp-linux-aarch64.tar.gz"
-      sha256 "67269716cd90619ded844b965b309053037e5c6e255052ec7e30dbfdb7d239e1"
+      sha256 "b27bffa516c89fbe9975c6534ddd31e5061889e7f0cb2cb6c0e8fd2954f4e75d"
     end
   end
 

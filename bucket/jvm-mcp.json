@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/oscarbol09/jvm-mcp/releases/download/v1.1.0/jvm-mcp-windows-amd64.zip",
-      "hash": "06df55759f3f3c49f2ae062be190fba7f2bafffee24f1891697f5499e4f60f99",
+      "hash": "4b4ae27fe27a70dcd5cfdd721f8d74952fb7fa5b91891c3d021a6d18695e0e7a",
       "extract_dir": "jvm-mcp"
     }
   },
