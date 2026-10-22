@@ -1,25 +1,48 @@
-﻿# Homebrew Tap for JVM-MCP
+﻿# Homebrew Tap & Scoop Bucket for JVM-MCP
 
-Official Homebrew tap for [JVM-MCP](https://github.com/oscarbol09/jvm-mcp).
+Official distribution repository for [JVM-MCP](https://github.com/oscarbol09/jvm-mcp).
 
-## Installation
+## macOS & Linux (Homebrew)
 
-Add the tap and install the binary:
+### Option 1: Add Tap Repository
 
 ```bash
 brew tap oscarbol09/tap
 brew install jvm-mcp
 ```
 
-Or install directly in one step:
+### Option 2: Direct Install
 
 ```bash
 brew install oscarbol09/tap/jvm-mcp
 ```
 
-## Upgrade
+### Upgrade
 
 ```bash
 brew update
 brew upgrade jvm-mcp
+```
+
+---
+
+## Windows (Scoop)
+
+### Option 1: Add Bucket
+
+```powershell
+scoop bucket add oscarbol09 https://github.com/oscarbol09/homebrew-tap.git
+scoop install jvm-mcp
+```
+
+### Option 2: Direct Install from URL
+
+```powershell
+scoop install https://raw.githubusercontent.com/oscarbol09/homebrew-tap/main/bucket/jvm-mcp.json
+```
+
+### Upgrade
+
+```powershell
+scoop update jvm-mcp
 ```
