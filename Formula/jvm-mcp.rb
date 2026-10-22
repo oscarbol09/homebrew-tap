@@ -8,27 +8,27 @@
 class JvmMcp < Formula
   desc "Native Java Model Context Protocol (MCP) server for live Spring Boot inspection"
   homepage "https://github.com/oscarbol09/jvm-mcp"
-  version "1.1.0"
+  version "1.1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/oscarbol09/jvm-mcp/releases/download/v#{version}/jvm-mcp-macos-aarch64.tar.gz"
-      sha256 "87a983b8bc87a529652248f840c32a23fc5b7c2fe81da7808cb2efb3b7aa12a1"
+      sha256 "20c793a87e1f9a26fd62b31f3453ab718f3c99e084a668f74eccaa94c8072438"
     end
     on_intel do
       url "https://github.com/oscarbol09/jvm-mcp/releases/download/v#{version}/jvm-mcp-macos-amd64.tar.gz"
-      sha256 "938a0e7e01553ae921a3171c6f68b3293ab9b839e203a272d47b320a92faaab6"
+      sha256 "0907eb35b268ad5e93e22f5051575bbd652b84d5373321515889884f87480636"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/oscarbol09/jvm-mcp/releases/download/v#{version}/jvm-mcp-linux-amd64.tar.gz"
-      sha256 "41c5e9963c7847c9e90f8a96cb79547fdf4b6f8340f4edf3a6c80f4ba0b67311"
+      sha256 "bca6d78a5a0b017085a93f9d77e914b068f7889fe0a5bd849f6a907a9d1318d6"
     end
     on_arm do
       url "https://github.com/oscarbol09/jvm-mcp/releases/download/v#{version}/jvm-mcp-linux-aarch64.tar.gz"
-      sha256 "b27bffa516c89fbe9975c6534ddd31e5061889e7f0cb2cb6c0e8fd2954f4e75d"
+      sha256 "0a05e302128fc34a24e21febc0373d4206117783c44d1561aff11d170087dc39"
     end
   end
 
